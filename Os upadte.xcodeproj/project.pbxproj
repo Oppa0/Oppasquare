@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781FF4E32ADFBCC60063247C /* Os_upadteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FF4E22ADFBCC60063247C /* Os_upadteApp.swift */; };
+		781FF4E52ADFBCC60063247C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FF4E42ADFBCC60063247C /* ContentView.swift */; };
+		781FF4E72ADFBCC70063247C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781FF4E62ADFBCC70063247C /* Assets.xcassets */; };
+		781FF4EA2ADFBCC70063247C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781FF4E92ADFBCC70063247C /* Preview Assets.xcassets */; };
+		781FF4F52ADFBCC70063247C /* Os_upadteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FF4F42ADFBCC70063247C /* Os_upadteTests.swift */; };
+		781FF4FF2ADFBCC70063247C /* Os_upadteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FF4FE2ADFBCC70063247C /* Os_upadteUITests.swift */; };
+		781FF5012ADFBCC70063247C /* Os_upadteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781FF5002ADFBCC70063247C /* Os_upadteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		781FF4F12ADFBCC70063247C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 781FF4D72ADFBCC60063247C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781FF4DE2ADFBCC60063247C;
+			remoteInfo = "Os upadte";
+		};
+		781FF4FB2ADFBCC70063247C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 781FF4D72ADFBCC60063247C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781FF4DE2ADFBCC60063247C;
+			remoteInfo = "Os upadte";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781FF4DF2ADFBCC60063247C /* Os upadte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Os upadte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		781FF4E22ADFBCC60063247C /* Os_upadteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Os_upadteApp.swift; sourceTree = "<group>"; };
+		781FF4E42ADFBCC60063247C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		781FF4E62ADFBCC70063247C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		781FF4E92ADFBCC70063247C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		781FF4EB2ADFBCC70063247C /* Os_upadte.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Os_upadte.entitlements; sourceTree = "<group>"; };
+		781FF4F02ADFBCC70063247C /* Os upadteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Os upadteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		781FF4F42ADFBCC70063247C /* Os_upadteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Os_upadteTests.swift; sourceTree = "<group>"; };
+		781FF4FA2ADFBCC70063247C /* Os upadteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Os upadteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		781FF4FE2ADFBCC70063247C /* Os_upadteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Os_upadteUITests.swift; sourceTree = "<group>"; };
+		781FF5002ADFBCC70063247C /* Os_upadteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Os_upadteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		781FF4DC2ADFBCC60063247C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4ED2ADFBCC70063247C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4F72ADFBCC70063247C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781FF4D62ADFBCC60063247C = {
+			isa = PBXGroup;
+			children = (
+				781FF4E12ADFBCC60063247C /* Os upadte */,
+				781FF4F32ADFBCC70063247C /* Os upadteTests */,
+				781FF4FD2ADFBCC70063247C /* Os upadteUITests */,
+				781FF4E02ADFBCC60063247C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		781FF4E02ADFBCC60063247C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				781FF4DF2ADFBCC60063247C /* Os upadte.app */,
+				781FF4F02ADFBCC70063247C /* Os upadteTests.xctest */,
+				781FF4FA2ADFBCC70063247C /* Os upadteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		781FF4E12ADFBCC60063247C /* Os upadte */ = {
+			isa = PBXGroup;
+			children = (
+				781FF4E22ADFBCC60063247C /* Os_upadteApp.swift */,
+				781FF4E42ADFBCC60063247C /* ContentView.swift */,
+				781FF4E62ADFBCC70063247C /* Assets.xcassets */,
+				781FF4EB2ADFBCC70063247C /* Os_upadte.entitlements */,
+				781FF4E82ADFBCC70063247C /* Preview Content */,
+			);
+			path = "Os upadte";
+			sourceTree = "<group>";
+		};
+		781FF4E82ADFBCC70063247C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				781FF4E92ADFBCC70063247C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		781FF4F32ADFBCC70063247C /* Os upadteTests */ = {
+			isa = PBXGroup;
+			children = (
+				781FF4F42ADFBCC70063247C /* Os_upadteTests.swift */,
+			);
+			path = "Os upadteTests";
+			sourceTree = "<group>";
+		};
+		781FF4FD2ADFBCC70063247C /* Os upadteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				781FF4FE2ADFBCC70063247C /* Os_upadteUITests.swift */,
+				781FF5002ADFBCC70063247C /* Os_upadteUITestsLaunchTests.swift */,
+			);
+			path = "Os upadteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		781FF4DE2ADFBCC60063247C /* Os upadte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781FF5042ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadte" */;
+			buildPhases = (
+				781FF4DB2ADFBCC60063247C /* Sources */,
+				781FF4DC2ADFBCC60063247C /* Frameworks */,
+				781FF4DD2ADFBCC60063247C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Os upadte";
+			productName = "Os upadte";
+			productReference = 781FF4DF2ADFBCC60063247C /* Os upadte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		781FF4EF2ADFBCC70063247C /* Os upadteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781FF5072ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadteTests" */;
+			buildPhases = (
+				781FF4EC2ADFBCC70063247C /* Sources */,
+				781FF4ED2ADFBCC70063247C /* Frameworks */,
+				781FF4EE2ADFBCC70063247C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				781FF4F22ADFBCC70063247C /* PBXTargetDependency */,
+			);
+			name = "Os upadteTests";
+			productName = "Os upadteTests";
+			productReference = 781FF4F02ADFBCC70063247C /* Os upadteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		781FF4F92ADFBCC70063247C /* Os upadteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781FF50A2ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadteUITests" */;
+			buildPhases = (
+				781FF4F62ADFBCC70063247C /* Sources */,
+				781FF4F72ADFBCC70063247C /* Frameworks */,
+				781FF4F82ADFBCC70063247C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				781FF4FC2ADFBCC70063247C /* PBXTargetDependency */,
+			);
+			name = "Os upadteUITests";
+			productName = "Os upadteUITests";
+			productReference = 781FF4FA2ADFBCC70063247C /* Os upadteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		781FF4D72ADFBCC60063247C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					781FF4DE2ADFBCC60063247C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					781FF4EF2ADFBCC70063247C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 781FF4DE2ADFBCC60063247C;
+					};
+					781FF4F92ADFBCC70063247C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 781FF4DE2ADFBCC60063247C;
+					};
+				};
+			};
+			buildConfigurationList = 781FF4DA2ADFBCC60063247C /* Build configuration list for PBXProject "Os upadte" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 781FF4D62ADFBCC60063247C;
+			productRefGroup = 781FF4E02ADFBCC60063247C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				781FF4DE2ADFBCC60063247C /* Os upadte */,
+				781FF4EF2ADFBCC70063247C /* Os upadteTests */,
+				781FF4F92ADFBCC70063247C /* Os upadteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781FF4DD2ADFBCC60063247C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781FF4EA2ADFBCC70063247C /* Preview Assets.xcassets in Resources */,
+				781FF4E72ADFBCC70063247C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4EE2ADFBCC70063247C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4F82ADFBCC70063247C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781FF4DB2ADFBCC60063247C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781FF4E52ADFBCC60063247C /* ContentView.swift in Sources */,
+				781FF4E32ADFBCC60063247C /* Os_upadteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4EC2ADFBCC70063247C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781FF4F52ADFBCC70063247C /* Os_upadteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781FF4F62ADFBCC70063247C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781FF4FF2ADFBCC70063247C /* Os_upadteUITests.swift in Sources */,
+				781FF5012ADFBCC70063247C /* Os_upadteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		781FF4F22ADFBCC70063247C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 781FF4DE2ADFBCC60063247C /* Os upadte */;
+			targetProxy = 781FF4F12ADFBCC70063247C /* PBXContainerItemProxy */;
+		};
+		781FF4FC2ADFBCC70063247C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 781FF4DE2ADFBCC60063247C /* Os upadte */;
+			targetProxy = 781FF4FB2ADFBCC70063247C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		781FF5022ADFBCC70063247C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		781FF5032ADFBCC70063247C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		781FF5052ADFBCC70063247C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Os upadte/Os_upadte.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Os upadte/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		781FF5062ADFBCC70063247C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Os upadte/Os_upadte.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Os upadte/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		781FF5082ADFBCC70063247C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Os upadte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Os upadte";
+			};
+			name = Debug;
+		};
+		781FF5092ADFBCC70063247C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Os upadte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Os upadte";
+			};
+			name = Release;
+		};
+		781FF50B2ADFBCC70063247C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Os upadte";
+			};
+			name = Debug;
+		};
+		781FF50C2ADFBCC70063247C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tcpl.Os-upadteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Os upadte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		781FF4DA2ADFBCC60063247C /* Build configuration list for PBXProject "Os upadte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781FF5022ADFBCC70063247C /* Debug */,
+				781FF5032ADFBCC70063247C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781FF5042ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781FF5052ADFBCC70063247C /* Debug */,
+				781FF5062ADFBCC70063247C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781FF5072ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781FF5082ADFBCC70063247C /* Debug */,
+				781FF5092ADFBCC70063247C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781FF50A2ADFBCC70063247C /* Build configuration list for PBXNativeTarget "Os upadteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781FF50B2ADFBCC70063247C /* Debug */,
+				781FF50C2ADFBCC70063247C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 781FF4D72ADFBCC60063247C /* Project object */;
+}
